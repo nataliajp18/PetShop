@@ -54,7 +54,7 @@ main section.bannerTres{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background:url(/img/fondo.png);
+    background:url(../img/fondo.png);
     background-size: cover;
     height: calc(100vh - 83px);
 }
@@ -135,4 +135,118 @@ main section.productos article p{
 main section.productos article span{ 
     color: #F0A83E;
     font-weight: bold;
+}
+
+main section div.formulario h3{
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #3C2313;
+    font-weight: 700;
+    margin: 85px 0px 10px 0px;
+}
+
+main section div form.formularioDatos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main section div.formulario input{
+    background-color:#3C2313;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 230px 15px 15px;
+    border-radius: 15px;
+    margin-top: 10px; 
+}
+
+main section div form.enviarDatos{
+    margin-top: 40px;
+    text-align: center;
+}
+
+main section div.guardarDatos form input{
+    text-align:center;
+    padding: 8px 25px 8px 25px;
+    border-radius: 15px;
+    margin-right: 5px;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+main section div.guardarDatos form  input:nth-child(1){
+    background-color:#8A8787;
+}
+
+main section div.guardarDatos form  input:nth-child(2){
+    background-color:#F0A83E;
+}
+
+/* Footer*/
+
+footer{
+    font-family: font-family: 'Roboto', sans-serif;
+}
+
+footer section.suscripcion{
+    display: flex;
+    background-color: #F0A83E;
+    justify-content: space-between;
+    padding: 13px 47px 13px 23px ;
+    margin-top: 75px;
+}
+
+footer section.suscripcion div{
+    display: flex;
+    align-items: center;
+}
+
+footer section div h4{
+    font-size: 20px;
+    font-weight: 700;
+    align-items: center;
+    margin-left: 10px;
+    color: #FFFFFF;
+}
+
+footer section div form input:nth-child(1){
+    padding: 14px 148px 14px 8px;
+    border-radius: 15px;
+    color:#A0A0A0;
+}
+
+footer section div form input:nth-child(2){
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #3C2313;
+    color: #FFFFFF;
+    font-weight: bold;
+    align-items: center;
+}
+
+footer section.informacionPet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3C2313;
+}
+
+footer section.informacionPet span{
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-left: 25px;
+}
+
+footer section.informacionPet p{
+    font-size: 10px;
+    font-weight: 700;
+    color: #8A8787;
+    margin-left: 25px;
+}
+
+footer section.informacionPet div.informacionDetallada{
+    display: flex;
+    align-items: center;
 }

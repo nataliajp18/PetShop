@@ -75,17 +75,87 @@
                 <span>$150</span>
             </article>
             <article>
-                <img src="/img/comedero.png" alt="">
+                <img src="./img/comedero.png" alt="">
                 <p>Comedero para perro</p>
                 <span>$250</span>
             </article>
             <article>
-                <img src="/img/Huesito.png" alt="">
+                <img src="./img/Huesito.png" alt="">
                 <p>Juguete Huesito</p>
                 <span>$650</span>
             </article>
         </section>
-        </main>
+
+        <section>
+            <div class="formulario">
+                <h3>Contáctanos</h3>
+                <form action="/results" method="post" autocomplete="off" class="formularioDatos">
+                    <input type="text" name="name" placeholder="Nombre y Apellido">                        
+                    <input type="email" name="email" placeholder="Ingresá tu correo electrónico">
+                    <input type="number" name="number" placeholder="Teléfono">
+                </form>
+            </div>
+
+            <div class="guardarDatos">
+                <form action="/results" method="post" class="enviarDatos">
+                    <input type="submit" value="Resetear">
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="suscripcion">
+            <div>
+                <img src="./img/mensaje.png" alt="">
+                <h4>Suscribete para más novedades</h4>
+            </div>
+            <div>
+                <form action="/results" method="post" autocomplete="off">
+                    <input type="text" name="name" placeholder="Ingresa tu correo electrónico">
+                    <input type="submit" value="Suscribirme">
+
+                </form>
+            </div>
+        </section>
+
+        <section class="informacionPet">
+            <div>
+                <div class="informacionDetallada">
+                    <div>
+                        <img src="./img/localizacion.png" alt="">
+                    </div>
+                    <div>
+                        <span>Localidad</span>
+                        <p>Calle-provincia</p>
+                    </div> 
+                </div>
+                <div class="informacionDetallada">
+                    <div>
+                        <img src="./img/llamada.png" alt="">
+                    </div>
+                    <div>
+                        <span>Telefono</span>
+                        <p>Número de teléfono</p>
+                    </div> 
+                </div>
+                <div class="informacionDetallada">
+                    <div>
+                        <img src="./img/correo.png" alt="">
+                    </div>
+                    <div>
+                        <span>Correo Electrónico</span>
+                        <p>Dirección de correo</p>
+                    </div> 
+                </div>
+            </div>
+
+            <div>
+                <img src="./img/LogoDos.png" alt="">
+            </div>
+        </section>
+    </footer>
 
 </body>
 </html>

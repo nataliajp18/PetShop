@@ -34,6 +34,7 @@ header i{
 
 header section.bannerDos{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     background-color: #F0A83E;
     padding: 18px 40px 18px 58px;
@@ -58,6 +59,7 @@ main section{
 
 main section.bannerTres{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     background:url(../img/fondo.png);
@@ -159,6 +161,7 @@ main section div.formulario h3{
 
 main section div form.formularioDatos{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -175,6 +178,10 @@ main section div.formulario input{
 main section div form.enviarDatos{
     margin-top: 40px;
     text-align: center;
+}
+
+main section div.guardarDatos{
+    flex-wrap: wrap;
 }
 
 main section div.guardarDatos form input{
@@ -261,6 +268,7 @@ footer section.informacionPet p{
 
 footer section.informacionPet div.informacionDetallada{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     padding: 20px 70px;
     margin-right: 70px;
@@ -271,6 +279,7 @@ footer section div.logoDos{
 }
 
 footer section.derechosReservados{
+    flex-wrap: wrap;
     background-color: #222222;
     color: #FFFFFF;
     padding: 4px;
@@ -300,10 +309,29 @@ footer section.derechosReservados{
         font-weight: bold;
     }
 
+    main section div.formulario input{
+        padding: 15px 215px 15px 5px;
+    }
+
     footer section.informacionPet{
         display: flex;
         flex-direction: column-reverse;
         align-items: flex-start;
+    }
+
+    footer section.suscripcion div form.suscripcionRes{
+        display: flex;
+        margin-top: 15px;
+    }
+
+    footer section div form input:nth-child(1){
+        padding: 14px 50px 14px 14px;
+        margin: 0px;
+    }
+    
+    footer section div form input:nth-child(2){
+        padding: 10px;
+        margin-left: 10px;
     }
 
     footer section.informacionPet div.informacionDetallada{

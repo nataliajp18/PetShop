@@ -310,7 +310,7 @@ footer section.derechosReservados{
     }
 
     main section div.formulario input{
-        padding: 15px 215px 15px 5px;
+        padding: 15px 180px 15px 5px;
     }
 
     footer section.informacionPet{
@@ -336,7 +336,7 @@ footer section.derechosReservados{
 
     footer section.informacionPet div.informacionDetallada{
         align-items: center;
-        padding-left: 80px;
+        padding-left: 60px;
         margin: 0px;
     }
 

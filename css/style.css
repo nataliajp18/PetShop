@@ -145,6 +145,10 @@ main section.productos article span{
     font-weight: bold;
 }
 
+main section div.formulario{
+    flex-wrap: wrap;
+}
+
 main section div.formulario h3{
     text-align: center;
     justify-content: center;
@@ -289,6 +293,12 @@ footer section.derechosReservados{
     header section.bannerDos a{
         display:inline;
         color:#FFFFFF;
+    }
+
+    main section.menuSecciones h2{
+        font-size: 50px;
+        text-align: center;
+        font-weight: bold;
     }
 
     footer section.informacionPet{

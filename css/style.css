@@ -9,6 +9,7 @@
 
 header section.bannerUno{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     font-family: 'Roboto', sans-serif;
     background-color:#222222;
@@ -25,6 +26,7 @@ header section div.menuOpciones{
     justify-content: space-between; 
     padding: 4px 52px 4px 0px;
 }
+
 header i{
     padding: 0px;
     font-size: 10px;
@@ -38,6 +40,10 @@ header section.bannerDos{
     color:#FFFFFF;
     font-size: 13px;
     align-items: center;
+}
+
+header section.bannerDos a{
+    display: none;
 }
 
 header section.bannerDos div i{
@@ -94,6 +100,7 @@ main section.bannerTres div button{
 
 main section.menuSecciones{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -121,6 +128,7 @@ main section.menuSecciones ul li{
 
 main section.productos{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -191,6 +199,7 @@ footer{
 
 footer section.suscripcion{
     display: flex;
+    flex-wrap: wrap;
     background-color: #F0A83E;
     justify-content: space-between;
     padding: 13px 47px 13px 23px ;
@@ -227,6 +236,7 @@ footer section div form input:nth-child(2){
 
 footer section.informacionPet{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     background-color: #3C2313;
@@ -263,5 +273,37 @@ footer section.derechosReservados{
     padding: 4px;
     text-align: center;
     font-size: 10px;
+}
 
+/*Responsive*/
+
+@media(max-width: 415px){
+    header section.bannerUno{
+        display: none;
+    }
+
+    header section div.menuOpciones{
+        display: none;
+    }
+
+    header section.bannerDos a{
+        display:inline;
+        color:#FFFFFF;
+    }
+
+    footer section.informacionPet{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    footer section.informacionPet div.informacionDetallada{
+        align-items: center;
+        padding-left: 80px;
+        margin: 0px;
+    }
+
+    footer section div.logoDos{
+        padding: 20px 140px 0px 140px;
+    }
 }

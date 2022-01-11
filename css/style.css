@@ -249,4 +249,19 @@ footer section.informacionPet p{
 footer section.informacionPet div.informacionDetallada{
     display: flex;
     align-items: center;
+    padding: 20px 70px;
+    margin-right: 70px;
+}
+
+footer section div.logoDos{
+    padding-right: 70px;
+}
+
+footer section.derechosReservados{
+    background-color: #222222;
+    color: #FFFFFF;
+    padding: 4px;
+    text-align: center;
+    font-size: 10px;
+
 }

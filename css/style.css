@@ -303,6 +303,20 @@ footer section.derechosReservados{
         color:#FFFFFF;
     }
 
+    main section.bannerTres div h1{
+        margin-right: 0px;
+    }
+
+    main section.bannerTres{
+        align-items: center;
+        width: 100%;
+    }
+
+    main section.bannerTres div.anuncio{
+        width: 100%;
+        justify-content: center;
+    }
+
     main section.menuSecciones h2{
         font-size: 50px;
         text-align: center;
@@ -341,6 +355,9 @@ footer section.derechosReservados{
     }
 
     footer section div.logoDos{
-        padding: 20px 140px 0px 140px;
+        padding-right: 0px;
+        width: 100vw;
+        text-align: center;
+        margin-top: 15px;
     }
-}
+}       

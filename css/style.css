@@ -330,7 +330,7 @@ footer section.derechosReservados{
     footer section.informacionPet{
         display: flex;
         flex-direction: column-reverse;
-        align-items: flex-start;
+        width: 100%;
     }
 
     footer section.suscripcion div form.suscripcionRes{
@@ -350,8 +350,8 @@ footer section.derechosReservados{
 
     footer section.informacionPet div.informacionDetallada{
         align-items: center;
-        padding-left: 30px;
-        margin: 0px;
+        padding: 0px;
+        margin: 5px;
     }
 
     footer section div.logoDos{
